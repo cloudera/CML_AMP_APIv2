@@ -5,3 +5,8 @@ specification_version: 1.0
 prototype_version: 1.0
 date: "2021-08-10"
 api_version: 1
+
+runtimes:
+  - editor: JupyterLab
+    kernel: Python 3.8
+    edition: Standard

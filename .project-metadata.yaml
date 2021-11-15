@@ -6,6 +6,11 @@ prototype_version: 1.0
 date: "2021-08-10"
 api_version: 1
 
+engine_images:
+  - image_name: engine
+    tags:
+      - 14
+
 runtimes:
   - editor: JupyterLab
     kernel: Python 3.8

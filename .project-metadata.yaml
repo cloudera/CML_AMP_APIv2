@@ -2,16 +2,10 @@ name: Interacting with CML using API
 description: Demonstrating examples of using API.
 author: Cloudera Inc.
 specification_version: 1.0
-prototype_version: 1.0
-date: "2021-08-10"
-api_version: 1
+prototype_version: 2.0
+date: "2022-04-05"
 
 runtimes:
   - editor: JupyterLab
-    kernel: Python 3.6
+    kernel: Python 3.9
     edition: Standard
-
-engine_images:
-  - image_name: engine
-    tags:
-      - 14
